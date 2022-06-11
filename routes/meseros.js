@@ -2,7 +2,8 @@ const express = require('express')
 
 const router = require('express').Router()
 
-import connection from '../connection';
+const connection = require('../connection');
+//import connection from '../connection';
 
 router.get('/obtener-meseros', async (req, res) =>{
 
