@@ -1,0 +1,7 @@
+{
+    "host" : "dbcomputonube.cz9wzeft9vhk.us-east-2.rds.amazonaws.com",
+    "port" : "3307",
+    "user" : "admin",
+    "password" : "Emporio59+",
+    "database" : "restaurante"
+}
