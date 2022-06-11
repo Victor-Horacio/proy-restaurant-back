@@ -1,6 +1,6 @@
-import express, { response } from 'express';
+const express = require('express')
 
-const router = express.Router();
+const router = require('express').Router()
 
 import connection from '../connection';
 
