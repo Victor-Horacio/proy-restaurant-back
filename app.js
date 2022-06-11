@@ -21,8 +21,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(history());
 
 
+const PORT = process.env.PORT || 3001
 
-
-app.listen(3001, function(){
+app.listen(PORT, () => {
     console.log('Server arriba');
 });
