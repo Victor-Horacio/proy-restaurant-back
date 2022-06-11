@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    
     "dev": "nodemon app.js --exec babel-node",
-    "heroku-postbuild": "npm run build",
+    
     "start": "node app"
   },
   "author": "",
