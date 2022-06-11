@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js --exec babel-node"
+    "dev": "nodemon app.js --exec babel-node",
+    "heroku-postbuild": "npm run build",
+    "start": "node app"
   },
   "author": "",
   "license": "GPL-3.0-or-later",
