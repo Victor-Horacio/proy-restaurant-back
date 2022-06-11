@@ -1,4 +1,5 @@
-import mysql from 'mysql'
+//import mysql from 'mysql'
+const mysql = require('mysql');
 import { config } from 'process';
 import { promisify } from 'util';
 const configdb = require('./configdb');
